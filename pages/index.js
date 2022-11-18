@@ -9,7 +9,7 @@ import "antd/dist/antd.css";
 export default function Home({ dataUsers: initialUsers }) {
   const [dataUser, setDataUser] = useState([initialUsers]);
   const [loading, setLoding] = useState(true);
-  const [filterNat, setFilterNat] = useState();
+  const [filterNat, setFilterNat] = useState("AU");
   const [start, setStart] = useState(0);
   const [users, setUsers] = useState(initialUsers);
 
